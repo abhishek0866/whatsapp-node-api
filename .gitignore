@@ -1,0 +1,7 @@
+# Node Module File and package-lock.json because this is too large 
+node_modules
+
+package-lock.json
+
+# .env because of security
+.env 
