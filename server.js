@@ -6,6 +6,8 @@ const webApp = express();
 const bodyParser = require('body-parser');
 const { foodOrder } = require("./src/controller/user");
 
+webApp.use(helmet())
+
 // webapp settings
 webApp.use(bodyParser.urlencoded({
     extended: true
